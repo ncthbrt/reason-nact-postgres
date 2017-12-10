@@ -1,0 +1,37 @@
+{
+  "name": "reason-nact-postgres",
+  "version": "1.0.0",
+  "repository": "https://github.com/ncthbrt/reason-nact-postgres",
+  "author": "Nick Cuthbert (https://github.com/ncthbrt)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "http://github.com/ncthbrt/reason-nact-postgres/issues"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "prepare": "yarn run clean && yarn run build"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "nact",
+    "actors",
+    "actor-model",
+    "akka",
+    "akka.net",
+    "non-blocking",
+    "actor system",
+    "erlang",
+    "event sourcing",
+    "distributed-systems"
+  ],
+  "devDependencies": {
+    "bs-platform": "2.0.0"
+  },
+  "dependencies": {
+    "nact-persistence-postgres": "^4.0.1",
+    "reason-nact": "^1.0.0"
+  }
+}
