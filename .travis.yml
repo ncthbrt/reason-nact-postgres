@@ -2,3 +2,13 @@ language: node_js
 node_js:
 - '8'
 cache: yarn
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: nick@cuthbert.co.za
+  api_key:
+    secure: UM8mVp2YMaJWCywg2h+3mwlknj3jXgTVIbAHOCm80kKCxLMjAQRRTHXUbVQ0qI8MrHFI09RdKQzbjfMFgzctNdBLzrbOTnD8aCha0+lolaXuKiLKMYLyc/aGeGuL2THqr1Vsu56fIcYJO0xxJUFxe9KPDL3v++KBZJe2yEZZRHl0YNd5CMG6T4QDv2DrOq0YgTo+Tfzwwsx70C/h6Per3cHgheW15BdlkdhCjOQwl4lQrrNJjO2NttBI1oDar/s/0Rqs1iLf26BZPnFDp4NiiqDIHLbUol/PqJn0c8fBrr58fHpLrAZInYeOKKLR3q1hSPfky0LtaQXQWOejGaaxyykVixAf/GEW4epp1UyuJQLTBTGvcnfc5PyZprZjbw9cyWlXmvJb0M5xEBpRxgM8LPH+GqFqFerSzGxYWS+nR2O4Nu1w8rm0B74HEXQ3O1Go0INKWhtAAsVGbn/SSbrqp6Lta42kMHP4S7o0JZKN+h/ytY6GLWoXh6O+aHJjYAI4S8t26qCFMjD/FiCDV10a+SNcqyTjiNCcmoYxSjzRvqdyCr0gRWemDHrnMNxbov1B6IN4Us55CJnZ37NRFHgLQ7VsQpKLFDrwzT1Vogeflth/JPXQhsZKn9Ddscu21bijjlp6dqGm0wMQMC1s5XCtA4E+c4ASWivLTAhTz1MfoSs=
+  on:
+    tags: true
+    branch: master
+    repo: ncthbrt/reason-nact-postgres
