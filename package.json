@@ -32,7 +32,7 @@
     "reason-nact": "^1.0.1"
   },
   "dependencies": {
-    "nact-persistence-postgres": "^4.0.1"
+    "nact-persistence-postgres": "^4.3.0"
   },
   "peerDependencies": {
     "reason-nact": "^1.0.1"
