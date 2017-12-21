@@ -1,6 +1,6 @@
 {
   "name": "reason-nact-postgres",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/ncthbrt/reason-nact-postgres",
   "author": "Nick Cuthbert (https://github.com/ncthbrt)",
   "license": "Apache-2.0",
@@ -28,7 +28,8 @@
     "distributed-systems"
   ],
   "devDependencies": {
-    "bs-platform": "2.0.0"
+    "bs-platform": "2.0.0",
+    "reason-nact": "^1.0.1"
   },
   "dependencies": {
     "nact-persistence-postgres": "^4.0.1"
