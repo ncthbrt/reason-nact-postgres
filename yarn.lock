@@ -26,9 +26,9 @@ manakin@~0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/manakin/-/manakin-0.5.1.tgz#c4a7116f6b00df3d5f1a37ad3ca515d22065a658"
 
-nact-persistence-postgres@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/nact-persistence-postgres/-/nact-persistence-postgres-4.3.0.tgz#d1848181143843ead36b1bf1949fef4ce14a9c16"
+nact-persistence-postgres@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/nact-persistence-postgres/-/nact-persistence-postgres-4.3.1.tgz#2964f299aa92ce67cfc15eaabf19c17830d1095d"
   dependencies:
     pg-promise "^7.3.2"
     rxjs "^5.4.3"
