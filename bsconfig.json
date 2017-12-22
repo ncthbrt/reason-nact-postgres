@@ -2,11 +2,10 @@
 // BuckleScript comes with its own parser for bsconfig.json, which is normal JSON, with the extra support of comments and trailing commas.
 {
   "name": "reason-nact-postgres",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "sources": [
     "src"
-  ],  
-  "namespace": true,
+  ],      
   "refmt": 3,
   "package-specs": {
     "module": "commonjs",

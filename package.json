@@ -1,6 +1,6 @@
 {
   "name": "reason-nact-postgres",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/ncthbrt/reason-nact-postgres",
   "author": "Nick Cuthbert (https://github.com/ncthbrt)",
   "license": "Apache-2.0",
