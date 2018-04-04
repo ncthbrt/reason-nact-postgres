@@ -1,6 +1,6 @@
 {
   "name": "reason-nact-postgres",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "https://github.com/ncthbrt/reason-nact-postgres",
   "author": "Nick Cuthbert (https://github.com/ncthbrt)",
   "license": "Apache-2.0",
@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "bsb -make-world",
+    "test": "echo no tests",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "prepare": "yarn run clean && yarn run build"
