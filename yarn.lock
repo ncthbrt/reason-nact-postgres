@@ -2,21 +2,17 @@
 # yarn lockfile v1
 
 
-bs-platform@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-2.0.0.tgz#17ee607fa829f67b8b920438ebca5ec1deab3276"
+bs-platform@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-2.2.3.tgz#d905ae10a5f3621e6a739041dfa0b58483a2174f"
 
 buffer-writer@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/buffer-writer/-/buffer-writer-1.0.1.tgz#22a936901e3029afcd7547eb4487ceb697a3bf08"
 
-deep-freeze-node@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/deep-freeze-node/-/deep-freeze-node-1.1.3.tgz#ce9c14b3210e6f5607a578254f4b53fe01dd9467"
-
 denque@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/denque/-/denque-1.2.2.tgz#e06cf7cf0da8badc88cbdaabf8fc0a70d659f1d4"
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/denque/-/denque-1.2.3.tgz#98c50c8dd8cdfae318cc5859cc8ee3da0f9b0cc2"
 
 js-string-escape@1.0.1:
   version "1.0.1"
@@ -26,20 +22,17 @@ manakin@~0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/manakin/-/manakin-0.5.1.tgz#c4a7116f6b00df3d5f1a37ad3ca515d22065a658"
 
-nact-persistence-postgres@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/nact-persistence-postgres/-/nact-persistence-postgres-4.3.1.tgz#2964f299aa92ce67cfc15eaabf19c17830d1095d"
+nact-persistence-postgres@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/nact-persistence-postgres/-/nact-persistence-postgres-6.0.0.tgz#e74c217e347ed883de1ddcce0474ea4be95b18a7"
   dependencies:
     pg-promise "^7.3.2"
-    rxjs "^5.4.3"
 
-nact@^4.2.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/nact/-/nact-4.3.0.tgz#e2856ad316d95d1cc33fcb6a19ab07e60568f0a4"
+nact@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/nact/-/nact-6.0.0.tgz#e71f8da8fc11bef87fcd37a47d4ad1f5d34add83"
   dependencies:
-    deep-freeze-node "^1.1.3"
     denque "^1.2.2"
-    rxjs "^5.4.3"
 
 packet-reader@0.3.1:
   version "0.3.1"
@@ -49,22 +42,22 @@ pg-connection-string@0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-0.1.3.tgz#da1847b20940e42ee1492beaf65d49d91b245df7"
 
-pg-minify@~0.5.3:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/pg-minify/-/pg-minify-0.5.3.tgz#aa09befa3cbe29fab6461bf819100e0471215011"
+pg-minify@~0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/pg-minify/-/pg-minify-0.5.4.tgz#89d5261cacfd44dd7927fa052222a404e9b2a3c9"
 
 pg-pool@~2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/pg-pool/-/pg-pool-2.0.3.tgz#c022032c8949f312a4f91fb6409ce04076be3257"
 
 pg-promise@^7.3.2:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/pg-promise/-/pg-promise-7.3.2.tgz#0cee9fb747932b594f122ba79e67d0cd226473c6"
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/pg-promise/-/pg-promise-7.5.4.tgz#c1ef2f91ad8687296499dccfc7709d4b3c3fa43c"
   dependencies:
     manakin "~0.5.1"
-    pg "~7.4.0"
-    pg-minify "~0.5.3"
-    spex "~2.0.1"
+    pg "~7.4.1"
+    pg-minify "~0.5.4"
+    spex "~2.0.2"
 
 pg-types@~1.12.1:
   version "1.12.1"
@@ -75,9 +68,9 @@ pg-types@~1.12.1:
     postgres-date "~1.0.0"
     postgres-interval "^1.1.0"
 
-pg@~7.4.0:
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/pg/-/pg-7.4.0.tgz#e256061d2c52723c3c858defb97f1159ca660f83"
+pg@~7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/pg/-/pg-7.4.1.tgz#f3411c8ddf9f692322fe05e7017a1888e47f78f1"
   dependencies:
     buffer-writer "1.0.1"
     js-string-escape "1.0.1"
@@ -112,35 +105,25 @@ postgres-interval@^1.1.0:
   dependencies:
     xtend "^4.0.0"
 
-reason-nact@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/reason-nact/-/reason-nact-1.0.1.tgz#eaa35b4e7f9bdf7809e4e83a99332740802a32fc"
+reason-nact@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/reason-nact/-/reason-nact-3.0.0.tgz#1fb65339616b5ef8511975160ad6439662883c0c"
   dependencies:
-    nact "^4.2.0"
-
-rxjs@^5.4.3:
-  version "5.5.5"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.5.tgz#e164f11d38eaf29f56f08c3447f74ff02dd84e97"
-  dependencies:
-    symbol-observable "1.0.1"
+    nact "^6.0.0"
 
 semver@4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.2.tgz#c7a07158a80bedd052355b770d82d6640f803be7"
 
-spex@~2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/spex/-/spex-2.0.1.tgz#928c5c75b1a490f7203f49bccd967622dba4d3d3"
+spex@~2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/spex/-/spex-2.0.2.tgz#e8c8d633a4c67af642dded701ec2350c9de964a0"
 
 split@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/split/-/split-1.0.1.tgz#605bd9be303aa59fb35f9229fbea0ddec9ea07d9"
   dependencies:
     through "2"
-
-symbol-observable@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
 
 through@2:
   version "2.3.8"
