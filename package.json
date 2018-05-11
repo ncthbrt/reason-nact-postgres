@@ -29,13 +29,13 @@
     "distributed-systems"
   ],
   "devDependencies": {
-    "bs-platform": "^2.2.3",
-    "reason-nact": "^3.0.0"
+    "bs-platform": "^3.0.0",
+    "reason-nact": "^4.0.0"
   },
   "dependencies": {
-    "nact-persistence-postgres": "^6.0.0"
+    "nact-persistence-postgres": "^7.0.0"
   },
   "peerDependencies": {
-    "reason-nact": "^3.0.0"
+    "reason-nact": "^4.0.0"
   }
 }
