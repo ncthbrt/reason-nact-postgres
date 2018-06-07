@@ -18,9 +18,9 @@ manakin@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/manakin/-/manakin-0.5.1.tgz#c4a7116f6b00df3d5f1a37ad3ca515d22065a658"
 
-nact-persistence-postgres@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/nact-persistence-postgres/-/nact-persistence-postgres-7.0.1.tgz#4006e0573b4068c88e0b44e5715d0eee0c401bf3"
+nact-persistence-postgres@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/nact-persistence-postgres/-/nact-persistence-postgres-7.2.1.tgz#e578563ef2ad726553c004a9402b1148e3bad794"
   dependencies:
     pg-promise "^8.4.0"
 
